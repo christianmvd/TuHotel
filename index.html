@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tu Hotel</title>
-    <script src="js/cod.js"></script>
+    
     <meta name="description" content="Reserva de hoteles en todo el mundo">
     <!--KeyWords / para ubicacion de buscadores> -->
     <meta name="keywords" content="hotel, hoteles, reserva, viaje, viajes, diversion, alegria">
@@ -18,6 +18,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css\style.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
    
 </head>
 <body>
@@ -48,7 +50,18 @@
               
             </div>
         </section>
+        <h2 class="claseDeSeccion1__titulo2"><p id="parrafoad">Su Reserva<p></h2>
+                <section class="flexboxContenedorReserva">   
+                    <img id="imagencambio" class="imagenahora" src="img\habcomun.jpg" alt="Su Reserva">  
+                  <div>
+                    <p id="LeyendaCliente" class="flexboxContenedor__Titulo">(aca van los datos dinamicos segun nombre cliente)</p><p id="LeyendaClienteDesc" class="flexboxContenedor__Subtitulo">Somos una empresa informática con foco en infraestructura y desarrollo de software, combinamos los dos mundos para satisfacer las necesidades de nuestros clientes, brindando soluciones modernas para pequeñas y grandes empresas. Brindamos un alto nivel de atención en entender la necesidad del cliente para resolver obstáculos y desafíos en tiempo y forma. Somos un equipo joven con amplia experiencia en el rubro orientado a crecer y dinamizar los requerimientos del negocio.</p>
+                    <h4 id="despliegueTipoHab" class="flexboxContenedor__Subtitulo"></h4> <!-- despliego dinamicamente los datos de la reserva debajo de la leyenda  -->
+                    <h4 id="despliegueCantPersonas" class="flexboxContenedor__Subtitulo"></h4>
+                    <h4 id="despliegueCantDias" class="flexboxContenedor__Subtitulo"></h4>
+                  </div>
+                
+                </section> 
     </main>
-    
+    <script src="js/cod.js"></script>
 </body>
 </html>

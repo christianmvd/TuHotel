@@ -68,4 +68,55 @@
     
     background-color: #cccccc;
   }
+  .claseDeSeccion1__titulo2 {
+    /*APLICO SASS @IF PARA APLICAR O NO LOS GRADIENTES SEGUN VARIABLE*/
+   
+    color: black;
+    background-color: rgb(209, 131, 13);
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 2rem;
+    margin-bottom: 5px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+  }
+  @media (max-width: 900px) {
+    .imagenahora {
+      height: auto;
+      width: 80%;
+    }
+  }
+  @media (max-width: 450px) {
+    .imagenahora {
+      height: auto;
+      width: 100%;
+    }
+  }
+  .flexboxContenedor__Titulo {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    color: #A63232;
+  }
+  .flexboxContenedor__Subtitulo {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .flexboxContenedorReserva {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    background-image: radial-gradient(#cccccc, grey);
+    width: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
   
